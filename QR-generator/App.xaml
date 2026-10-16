@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:QR_generator"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#c16200"/>
+            <Setter Property="Foreground" Value="#e3e36a"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+        </Style>
     </Application.Resources>
 </Application>

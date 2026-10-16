@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using System.IO;
+﻿using System.IO;
 using System.Windows;
 using System.Windows.Media;
 using Microsoft.Win32;
@@ -12,6 +11,7 @@ namespace QR_generator
     /// </summary>
     public partial class MainWindow : Window
     {
+   
         QRCodeGenerator? qrC = null;
 
         byte[]? lastQR = null;
@@ -56,7 +56,7 @@ namespace QR_generator
         private void SaveBt_Click(object sender, RoutedEventArgs e)
         {
             SaveFileDialog ofd = new SaveFileDialog();
-            ofd.Filter = "Images (*.BMP;*.JPG;*.GIF)|*.BMP;*.JPG;*.GIF|" +
+            ofd.Filter = "Images (*.PNG;*.JPG)|*.PNG;*.JPG|" +
         "All files (*.*)|*.*";
             ofd.DefaultDirectory = Environment.SpecialFolder.MyDocuments.ToString();
             if (ofd.ShowDialog() == true)
