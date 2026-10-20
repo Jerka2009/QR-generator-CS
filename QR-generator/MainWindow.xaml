@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QR_generator"
         mc:Ignorable="d"
-        Title="QR-Generator" Height="450" Width="800" ResizeMode="NoResize" Background="#FF881600" Icon="/qr.ico">
+        Title="QR-Generator" Height="581" Width="422" ResizeMode="NoResize" Background="#FF881600" Icon="/qr.ico">
     <Grid>
-        <Button x:Name="ConvertBt" Content="Convert" HorizontalAlignment="Left" Margin="22,355,0,0" VerticalAlignment="Top" Height="34" Width="148" Click="ConvertBt_Click" BorderThickness="2,2,2,2" FontFamily="Segoe UI Variable Display Semibold" FontSize="22"/>
-        <Rectangle HorizontalAlignment="Left" Height="367" Margin="379,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="390" Fill="#FF4E0110" StrokeThickness="0"/>
-        <TextBox x:Name="inputText" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="352" Height="323" ToolTip="Введите текст для QR-Code" Text="Hello, its a qr-code text!" FontSize="16" Background="#FFE3E36A" Foreground="#FFC16200"/>
-        <Image x:Name="ImgQR" HorizontalAlignment="Left" Height="335" Margin="412,23,0,0" VerticalAlignment="Top" Width="335" OpacityMask="White" Panel.ZIndex="2"/>
-        <Button x:Name="SaveBt" Content="Save" HorizontalAlignment="Left" Margin="214,355,0,0" VerticalAlignment="Top" Height="34" Width="148" Click="SaveBt_Click" BorderThickness="2,2,2,2" FontFamily="Segoe UI Variable Display Semibold" FontSize="22" />
+        <Button x:Name="ConvertBt" Content="Convert" HorizontalAlignment="Left" Margin="10,506,0,0" VerticalAlignment="Top" Height="34" Width="178" Click="ConvertBt_Click" BorderThickness="2,2,2,2" FontFamily="Segoe UI Variable Display Semibold" FontSize="22"/>
+        <Rectangle HorizontalAlignment="Left" Height="367" Margin="6,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="390" Fill="#FF4E0110" StrokeThickness="0"/>
+        <TextBox x:Name="inputText" HorizontalAlignment="Left" Margin="7,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" Height="115" ToolTip="Введите текст для QR-Code" Text="Hello, its a qr-code text!" FontSize="16" Background="#FFE3E36A" Foreground="#FFC16200"/>
+        <Image x:Name="ImgQR" HorizontalAlignment="Left" Height="335" Margin="28,24,0,0" VerticalAlignment="Top" Width="335" OpacityMask="White" Panel.ZIndex="2"/>
+        <Button x:Name="SaveBt" Content="Save" HorizontalAlignment="Left" Margin="218,506,0,0" VerticalAlignment="Top" Height="34" Width="178" Click="SaveBt_Click" BorderThickness="2,2,2,2" FontFamily="Segoe UI Variable Display Semibold" FontSize="22" />
 
     </Grid>
 </Window>
