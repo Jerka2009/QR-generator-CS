@@ -2,7 +2,7 @@
 Прилоэение на windows которое предоставляет возможность превращать текст в QR-Code.
 
 ## Скриншоты
-[картинки](https://github.com/Jerka2009/QR-generator-CS/raw/refs/heads/master/screenshot.png)
+[https://github.com/Jerka2009/QR-generator-CS/raw/refs/heads/master/screenshot.png]
 
 ## Возможности
 - Преобразование ссылок, текстов и любых символов в QR-Code
