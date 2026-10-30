@@ -2,8 +2,7 @@
   "title": "QR code generator",
   "description": "Приложение на windows которое предоставляет возможность превращать текст в QR-Code.",
   "images": [
-    "assets/portfolio/screenshot-1.png",
-    "assets/portfolio/screenshot-2.png"
+    "assets/portfolio/screenshot-1.png"
   ],
   "demo": "https://github.com/Jerka2009/QR-generator-CS/releases/download/release/QR-GeneratorCS.zip",
   "github": "https://github.com/Jerka2009/QR-generator-CS"
