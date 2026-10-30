@@ -1,5 +1,5 @@
 # QR code generator
-Прилоэение на windows которое предоставляет возможность превращать текст в QR-Code.
+Приложение на windows которое предоставляет возможность превращать текст в QR-Code.
 
 ## Скриншоты
 [Превью](https://github.com/Jerka2009/QR-generator-CS/raw/refs/heads/master/screenshot.png)
